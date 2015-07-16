@@ -41,7 +41,7 @@ function init() {
         zoom: 13,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(43.6473, -79.3904), // Toronto
+        center: new google.maps.LatLng(43.6530, -79.3899), // Toronto
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -169,7 +169,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(43.6473, -79.3904);
+    var myLatLng = new google.maps.LatLng(43.6530, -79.3899);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
