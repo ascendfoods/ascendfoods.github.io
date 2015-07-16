@@ -166,7 +166,7 @@ function init() {
 
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
-
+/*!
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(43.6530, -79.3899);
@@ -175,4 +175,5 @@ function init() {
         map: map,
         icon: image
     });
+ */
 }
