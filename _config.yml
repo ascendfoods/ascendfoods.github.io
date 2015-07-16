@@ -18,12 +18,6 @@ social:
     url: 
   - title: facebook
     url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: 
 
 # Build settings
 markdown: kramdown
